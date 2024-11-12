@@ -1,10 +1,18 @@
 export default function Title() {
   return (
-    <div className="flex items-center justify-center h-fit gap-[20px] mb-[20px]">
-      <div className="font-digifit text-title-xl w-auto">Leo Shang</div>
-      <div className="font-IBMMedium text-body-xl w-[40%] text-customGray">
-        A 3rd year UBC Computer Science student, aspiring developer and
-        designer.
+    <div className="flex  flex-col w-[90%] justify-center items-start">
+      <div className="flex font-digifit text-title-xl items-center justify-center h-fit mb-[20px]">
+        Leo Shang
+      </div>
+      <div className="font-IBMMedium text-body-xl  h-fit mb-[60px]">
+        I'm a 3rd-year Computer Science student, designing and developing
+        solutions to problems with{" "}
+        <span className="font-bold whitespace-nowrap">full stack</span> and{" "}
+        <span className="font-bold whitespace-nowrap">UI design</span>{" "}
+        experience.
+      </div>
+      <div className="font-IBMBold text-sub-title-xl  h-fit mb-[20px]">
+        My Work
       </div>
     </div>
   );
