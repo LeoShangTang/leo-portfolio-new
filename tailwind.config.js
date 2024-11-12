@@ -20,6 +20,7 @@ module.exports = {
         IBMBold: ["IBMBold", "sans-serif"],
       },
       colors: {
+        customGray: "#353434",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

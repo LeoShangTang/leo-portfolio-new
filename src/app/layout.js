@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Image from "next/image";
+import Banner from "@/components/common/Banner";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -19,13 +20,16 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Banner />
         <div className="fixed inset-0 z-[-5] bg-cover bg-center bg-white bg-opacity-80" />
         <div className="fixed inset-0 -z-10 overflow-hidden">
           <Image
             src="/images/BG2.jpg"
             alt="Background image"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{
+              objectFit: "cover",
+            }}
             priority
           />
         </div>
