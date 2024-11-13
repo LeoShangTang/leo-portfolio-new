@@ -6,32 +6,34 @@ import GenreRec from "./GenreRec";
 
 export default function FavoriteSongs() {
   return (
-    <main className="flex flex-col justify-center items-center w-[90%] ">
-      <h2 className="text-sub-title-xl font-IBMMedium w-full">
+    <main className="flex flex-col justify-center items-center w-full ">
+      <h2 className="text-sub-title-xl font-IBMMedium w-full mb-10">
         I love <span className="font-bold whitespace-nowrap">music</span>! Here
         are some of my{" "}
         <span className="font-bold whitespace-nowrap">favorite songs</span>!
       </h2>
-      <GenreRec
-        genreTitle="Asian Lofi Hip Hop"
-        songsData={asianLofiHipHop}
-        gradientUrl={"/images/songs/asian-lofi-hip-hop/gradient.jpg"}
-      />
-      <GenreRec
-        genreTitle="Indie Pop & Pop"
-        songsData={indiePop}
-        gradientUrl={"/images/songs/indie-pop/gradient.jpg"}
-      />
-      <GenreRec
-        genreTitle="Slowcore"
-        songsData={slowcore}
-        gradientUrl={"/images/songs/slowcore/gradient.jpg"}
-      />
-      <GenreRec
-        genreTitle="Jazzy Funky Stuff"
-        songsData={jazzyFunkyStuff}
-        gradientUrl={"/images/songs/jazzy-funky-stuff/gradient.jpg"}
-      />
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full">
+        <GenreRec
+          genreTitle="Asian Lofi Hip Hop"
+          songsData={asianLofiHipHop}
+          gradientUrl={"/images/songs/asian-lofi-hip-hop/gradient.jpg"}
+        />
+        <GenreRec
+          genreTitle="Indie Pop & Pop"
+          songsData={indiePop}
+          gradientUrl={"/images/songs/indie-pop/gradient.jpg"}
+        />
+        <GenreRec
+          genreTitle="Slowcore"
+          songsData={slowcore}
+          gradientUrl={"/images/songs/slowcore/gradient.jpg"}
+        />
+        <GenreRec
+          genreTitle="Jazzy Funky Stuff"
+          songsData={jazzyFunkyStuff}
+          gradientUrl={"/images/songs/jazzy-funky-stuff/gradient.jpg"}
+        />
+      </div>
     </main>
   );
 }

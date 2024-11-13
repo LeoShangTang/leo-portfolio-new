@@ -10,7 +10,7 @@ export default function ProjectCard({
   description,
 }) {
   return (
-    <div className="flex w-[90%] bg-white bg-opacity-50 backdrop-blur-sm rounded-xl min-h-[600px] mb-10">
+    <div className="flex w-full bg-white bg-opacity-50 backdrop-blur-sm rounded-xl min-h-[600px] mb-10">
       <section className="flex items-center justify-center w-1/2 p-10">
         <div className="relative w-full h-full">
           <Image

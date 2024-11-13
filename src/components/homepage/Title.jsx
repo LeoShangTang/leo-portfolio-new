@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Title() {
   return (
-    <div className="flex flex-col w-[90%] justify-center items-start mx-auto">
+    <div className="flex flex-col w-full justify-center items-start mx-auto">
       <div className="flex h-auto gap-10">
         <div className="relative min-w-[250px] flex-shrink-0">
           <Image
