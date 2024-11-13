@@ -1,6 +1,13 @@
+"use client";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 export default function Banner() {
+  const pathName = usePathname();
+
+  const isHomePage = pathName === "/";
+  const isAboutPage = pathName === "/about";
+
   return (
     <nav className="flex items-center h-[50px] w-full whitespace-nowrap lg:text-[20px] text-[17px] justify-between fixed top-0 left-0 backdrop-blur-md z-10">
       <div className="flex items-center ml-3">
@@ -14,8 +21,24 @@ export default function Banner() {
         <a className="font-digifit text-body-xl px-6">Leo Shang</a>
       </div>
       <div>
-        <a className="font-IBMMedium text-body-xl px-6">Home</a>
-        <a className="font-IBMMedium text-body-xl px-6">About</a>
+        <a
+          className={`font-IBMMedium text-body-xl px-5 ${
+            isHomePage
+              ? "text-white bg-[#002AFF]  hover:bg-[#001FCC] hover:text-gray-100 py-1 rounded-full"
+              : ""
+          }`}
+        >
+          Home
+        </a>
+        <a
+          className={`font-IBMMedium text-body-xl px-5 ${
+            isAboutPage
+              ? "text-white bg-[#002AFF]  hover:bg-[#001FCC] hover:text-gray-100 py-1 rounded-full"
+              : ""
+          }`}
+        >
+          About
+        </a>
         <a
           href="https://drive.google.com/file/d/1tejVYfIfNaG9MtQx6fwCBLotd5OgTMXw/view?usp=sharing"
           target="_blank"
