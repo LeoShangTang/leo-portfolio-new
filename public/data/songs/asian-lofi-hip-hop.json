@@ -1,0 +1,37 @@
+[
+    {
+        "albumImageDest": "/images/songs/asian-lofi-hip-hop/1.png",
+        "title": "サンキュー！！",
+        "artist": "Home Made Kazoku",
+        "youtubeUrl": "https://www.youtube.com/watch?v=FXBqyp9nTY8",
+        "spotifyUrl": "https://open.spotify.com/track/3Zt96GJIqDOu0SucdGNGTX?si=0841edb7b0ed489f"
+    },
+    {
+        "albumImageDest": "/images/songs/asian-lofi-hip-hop/2.png",
+        "title": "快乐续命水",
+        "artist": "zc木蘭",
+        "youtubeUrl": "https://www.youtube.com/watch?v=mQYsqAAtlJA",
+        "spotifyUrl": "https://open.spotify.com/track/3WEFNNcWnvlnx4FdhgV1lb?si=1a55cecaf1c74009"
+    },
+    {
+        "albumImageDest": "/images/songs/asian-lofi-hip-hop/3.png",
+        "title": "Coveni",
+        "artist": "Lu1",
+        "youtubeUrl": "https://www.youtube.com/watch?v=ZWBclXTzDB8",
+        "spotifyUrl": "https://open.spotify.com/track/3RvQXqIQ3cbqPxN7hYbuNs?si=5aa835ddab8f406b"
+    },
+    {
+        "albumImageDest": "/images/songs/asian-lofi-hip-hop/4.png",
+        "title": "san francisco",
+        "artist": "MIDICRONICA",
+        "youtubeUrl": "https://www.youtube.com/watch?v=D3L-RQMxDz0",
+        "spotifyUrl": "https://open.spotify.com/track/0nsn0xuYHUTbq47O7SBV5v?si=5f371f7bfa3a46e1"
+    },
+    {
+        "albumImageDest": "/images/songs/asian-lofi-hip-hop/5.png",
+        "title": "Counting Stars",
+        "artist": "Nujabes",
+        "youtubeUrl": "https://www.youtube.com/watch?v=JQhjXXJpjlk",
+        "spotifyUrl": "https://open.spotify.com/track/7KMm1zF2QOTSw2t01IAFif?si=104bf2a045d947f7"
+    }
+]
