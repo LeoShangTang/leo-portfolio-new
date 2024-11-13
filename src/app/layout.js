@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
             style={{
               objectFit: "cover",
             }}
+            placeholder="empty"
             priority
           />
         </div>

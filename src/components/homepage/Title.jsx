@@ -10,6 +10,8 @@ export default function Title() {
             layout="fill"
             objectFit="cover"
             className="rounded-lg"
+            placeholder="blur"
+            blurDataURL={`${process.env.PLACEHOLDER_BLUR}`}
           />
         </div>
         <div className="flex flex-col justify-center">

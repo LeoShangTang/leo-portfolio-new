@@ -18,6 +18,8 @@ export default function ProjectCard({
             alt="Study Spot"
             fill
             className="object-contain"
+            placeholder="blur"
+            blurDataURL={`${process.env.PLACEHOLDER_BLUR}`}
           />
         </div>
       </section>
