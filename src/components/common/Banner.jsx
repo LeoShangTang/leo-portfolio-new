@@ -43,14 +43,14 @@ export default function Banner() {
         >
           About
         </Link>
-        <Link
+        <a
           href="https://drive.google.com/file/d/1tejVYfIfNaG9MtQx6fwCBLotd5OgTMXw/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="font-IBMMedium text-body-xl px-6"
         >
           Resume
-        </Link>
+        </a>
       </div>
     </nav>
   );

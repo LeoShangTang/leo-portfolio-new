@@ -1,11 +1,10 @@
-export default function MusicRecs() {
+import TrackItem from "./TrackItem";
+export default function SongList({ songs }) {
   return (
-    <div className="flex justify-center items-center w-[90%]">
-      <h2 className="text-sub-title-xl font-IBMMedium">
-        I love <span className="font-bold whitespace-nowrap">music</span>! Here
-        are some of my{" "}
-        <span className="font-bold whitespace-nowrap">favorite songs</span>!
-      </h2>
-    </div>
+    <ul className="flex flex-col gap-2">
+      {songs.map((song, index) => (
+        <TrackItem song={song} key={index} />
+      ))}
+    </ul>
   );
 }
