@@ -1,9 +1,37 @@
 [
     {
-        "albumImageDest": "",
-        "title": "",
-        "artist": "",
-        "youtubeUrl": "",
-        "spotifyUrl": ""
+        "albumImageDest": "/images/songs/indie-pop/1.png",
+        "title": "Tommy Boy",
+        "artist": "Kid Smoko",
+        "youtubeUrl": "https://www.youtube.com/watch?v=0KjmWTMhzbA",
+        "spotifyUrl": "https://open.spotify.com/track/7BPrvfQ0sOyl8qZhTVpl4T?si=2020f5271ab2451a"
+    },
+    {
+        "albumImageDest": "/images/songs/indie-pop/2.png",
+        "title": "Everybody Talks",
+        "artist": "Neon Trees",
+        "youtubeUrl": "https://www.youtube.com/watch?v=swoVAisnOLo",
+        "spotifyUrl": "https://open.spotify.com/track/2iUmqdfGZcHIhS3b9E9EWq?si=d14cbe55a1cd4cd9"
+    },
+    {
+        "albumImageDest": "/images/songs/indie-pop/3.png",
+        "title": "Tongue Tied",
+        "artist": "GROUPLOVE",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Fot9VQGVxAk",
+        "spotifyUrl": "https://open.spotify.com/track/0GO8y8jQk1PkHzS31d699N?si=33fa617fd1ff4cce"
+    },
+    {
+        "albumImageDest": "/images/songs/indie-pop/4.png",
+        "title": "Some Kind of Magic",
+        "artist": "LVTHER (FEAT MYZICA)",
+        "youtubeUrl": "https://www.youtube.com/watch?v=L4nWWWIDlfg",
+        "spotifyUrl": "https://open.spotify.com/track/6nK94ZVtTm6p6w8cWO7Yye?si=dc15bbefdc004775"
+    },
+    {
+        "albumImageDest": "/images/songs/indie-pop/5.png",
+        "title": "Hey Ya!",
+        "artist": "Outkast",
+        "youtubeUrl": "https://www.youtube.com/watch?v=PWgvGjAhvIw",
+        "spotifyUrl": "https://open.spotify.com/track/2PpruBYCo4H7WOBJ7Q2EwM?si=43e44f74957d43dd"
     }
 ]

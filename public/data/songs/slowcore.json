@@ -1,9 +1,38 @@
 [
     {
-        "albumImageDest": "",
-        "title": "",
-        "artist": "",
-        "youtubeUrl": "",
-        "spotifyUrl": ""
+        "albumImageDest": "/images/songs/slowcore/1.png",
+        "title": "No Surprises",
+        "artist": "Radiohead",
+        "youtubeUrl": "https://www.youtube.com/watch?v=LBt60dfwEBY",
+        "spotifyUrl": "https://open.spotify.com/track/10nyNJ6zNy2YVYLrcwLccB?si=4807fab92e924b2d"
+    },
+    {
+        "albumImageDest": "/images/songs/slowcore/2.png",
+        "title": "worldstar money",
+        "artist": "Joji",
+        "youtubeUrl": "https://www.youtube.com/watch?v=9wgDRAy9FbE",
+        "spotifyUrl": "https://open.spotify.com/track/0baNzeUcPQnQSagpe8T0mD?si=d3c49bcb88e1475a"
+    },
+    {
+        "albumImageDest": "/images/songs/slowcore/3.png",
+        "title": "Die For You",
+        "artist": "Joji",
+        "youtubeUrl": "https://www.youtube.com/watch?v=kIEWJ1ljEro",
+        "spotifyUrl": "https://open.spotify.com/track/26hOm7dTtBi0TdpDGl141t?si=21abe43201b64a48"
+    },
+    {
+        "albumImageDest": "/images/songs/slowcore/4.png",
+        "title": "Tree Among Shrubs",
+        "artist": "Men I Trust",
+        "youtubeUrl": "https://www.youtube.com/watch?v=IOquW8xcV0w",
+        "spotifyUrl": "https://open.spotify.com/track/2JKtCvtxP47fOMYi0BjMoY?si=bb368ad33b384175"
+    },
+    {
+        "albumImageDest": "/images/songs/slowcore/5.png",
+        "title": "madhouse",
+        "artist": "Matt Maltese",
+        "youtubeUrl": "https://www.youtube.com/watch?v=40S3PRPf7mI",
+        "spotifyUrl": "https://open.spotify.com/track/36fC4xtAucJ7KH6sdSDDo7?si=cbdcc19be700480c"
     }
+    
 ]

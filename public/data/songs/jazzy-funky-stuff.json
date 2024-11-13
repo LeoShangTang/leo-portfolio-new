@@ -1,9 +1,37 @@
 [
     {
-        "albumImageDest": "",
-        "title": "",
-        "artist": "",
-        "youtubeUrl": "",
-        "spotifyUrl": ""
+        "albumImageDest": "/images/songs/jazzy-funky-stuff/1.png",
+        "title": "Paraiso",
+        "artist": "SOIL & “PIMP” SESSIONS",
+        "youtubeUrl": "https://www.youtube.com/watch?v=WVTvNiW-KuE",
+        "spotifyUrl": "https://open.spotify.com/track/68ovj84IrJwY6zUo2YdqYb?si=63f6e562d2364300"
+    },
+    {
+        "albumImageDest": "/images/songs/jazzy-funky-stuff/2.png",
+        "title": "Tank!",
+        "artist": "SEATBELTS",
+        "youtubeUrl": "https://www.youtube.com/watch?v=UFFa0QoHWvE",
+        "spotifyUrl": "https://open.spotify.com/track/2Wi5ubKr8zSk8L3CLemyS4?si=6c6968b6c1134f3e"
+    },
+    {
+        "albumImageDest": "/images/songs/jazzy-funky-stuff/3.png",
+        "title": "カリソメ乙女",
+        "artist": "Sheena Ringo, SOIL & “PIMP”",
+        "youtubeUrl": "https://www.youtube.com/watch?v=F0zTZlxoyfo",
+        "spotifyUrl": "https://open.spotify.com/track/2M6Do3ldCBgbChvpxXhHfx?si=25ac83ddb5654305"
+    },
+    {
+        "albumImageDest":"/images/songs/jazzy-funky-stuff/4.png",
+        "title": "Sepia",
+        "artist": "Indigo Jam Unit",
+        "youtubeUrl": "https://www.youtube.com/watch?v=sLLdI94W_TI",
+        "spotifyUrl": "https://open.spotify.com/track/5AVnWUXifjcxv7l9lKVIqb?si=2fd7beeed6094785"
+    },
+    {
+        "albumImageDest": "/images/songs/jazzy-funky-stuff/5.png",
+        "title": "カルマの犬",
+        "artist": "Paranoid Void",
+        "youtubeUrl": "https://www.youtube.com/watch?v=jLoHzvykmxQ",
+        "spotifyUrl": "https://open.spotify.com/track/3aXSCmnTPMhQdUnDkVuNuj?si=6a351c0885d04f27"
     }
 ]
