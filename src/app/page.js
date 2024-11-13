@@ -3,7 +3,7 @@ import ProjectCard from "@/components/homepage/ProjectCard";
 
 function HomePage() {
   return (
-    <div className="flex flex-col items-center mx-auto min-h-screen max-w-[1280px] mt-48">
+    <div className="flex flex-col items-center mx-auto min-h-screen max-w-[1280px] mt-28">
       <Title />
       <ProjectCard tags={["PostGresSQL", "React", "Figma", "TypeScript"]} />
       <ProjectCard tags={["PostGresSQL", "React", "Figma", "TypeScript"]} />

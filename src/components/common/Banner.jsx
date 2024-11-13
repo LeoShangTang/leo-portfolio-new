@@ -24,7 +24,7 @@ export default function Banner() {
       </div>
       <div>
         <Link
-          className={`font-IBMMedium text-body-xl px-5 ${
+          className={`font-IBMMedium text-body-xl px-6 ${
             isHomePage
               ? "text-white bg-[#002AFF]  hover:bg-[#001FCC] hover:text-gray-100 py-1 rounded-full"
               : ""
@@ -34,7 +34,7 @@ export default function Banner() {
           Home
         </Link>
         <Link
-          className={`font-IBMMedium text-body-xl px-5 ${
+          className={`font-IBMMedium text-body-xl px-6 ${
             isAboutPage
               ? "text-white bg-[#002AFF]  hover:bg-[#001FCC] hover:text-gray-100 py-1 rounded-full"
               : ""

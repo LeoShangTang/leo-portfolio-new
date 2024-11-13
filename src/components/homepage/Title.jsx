@@ -6,7 +6,7 @@ export default function Title() {
         <div className="relative min-w-[250px] flex-shrink-0">
           <Image
             src="/images/Me2.webp"
-            alt="Picture of Leo Shang"
+            alt="Picture of Leo Shang in the Museum"
             layout="fill"
             objectFit="cover"
             className="rounded-lg"
@@ -18,7 +18,7 @@ export default function Title() {
           <div className="font-digifit text-title-xl mb-2 whitespace-nowrap">
             Leo Shang
           </div>
-          <div className="font-IBMMedium text-body-xl leading-tight">
+          <div className="font-IBMMedium text-body-xl">
             I'm a 3rd-year computer science student with{" "}
             <span className="font-bold whitespace-nowrap">Full Stack</span> and{" "}
             <span className="font-bold whitespace-nowrap">UI/UX design</span>{" "}
