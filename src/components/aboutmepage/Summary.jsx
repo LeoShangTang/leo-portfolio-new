@@ -5,7 +5,7 @@ export default function Summary() {
     <section className="flex flex-col items-center w-full mb-40">
       <h1 className="text-title-xl font-digifit whitespace-nowrap">About me</h1>
       <div className="flex flex-row gap-10 w-full">
-        <div className="relative w-1/2 aspect-square">
+        <div className="relative w-1/3 aspect-square">
           <Image
             src="/images/Me1.jpg"
             alt="Picture of Leo Shang in the Wilderness (UBC)"
@@ -16,21 +16,24 @@ export default function Summary() {
             className="rounded-lg"
           />
         </div>
-        <div className="flex flex-col w-1/2 justify-evenly">
-          <h2 className="text-sub-title-xl font-IBMRegular">
-            I’m <span className="font-bold whitespace-nowrap">Leo Shang</span>,
-            a computer science student at UBC.
+        <article className="flex flex-col w-2/3 justify-center">
+          <h2 className="text-sub-title-xl font-IBMRegular mb-10">
+            I’m{" "}
+            <span className="font-IBMBold whitespace-nowrap">Leo Shang</span>, a
+            computer science student at UBC.
           </h2>
-          <h2 className="text-sub-title-xl font-IBMRegular">
-            <span className="font-bold whitespace-nowrap">Programing</span>{" "}
+          <h2 className="text-body-xl font-IBMRegular">
+            <span className="font-IBMBold whitespace-nowrap">Programing</span>{" "}
             since high school and{" "}
-            <span className="font-bold whitespace-nowrap">designing</span> since
-            middle school, I love turning ideas into{" "}
-            <span className="font-bold whitespace-nowrap">visual concepts</span>{" "}
+            <span className="font-IBMBold whitespace-nowrap">designing</span>{" "}
+            since middle school, I love turning ideas into{" "}
+            <span className="font-IBMBold whitespace-nowrap">
+              visual concepts
+            </span>{" "}
             and bringing them to life through{" "}
-            <span className="font-bold whitespace-nowrap">code</span>.
+            <span className="font-IBMBold whitespace-nowrap">code</span>.
           </h2>
-        </div>
+        </article>
       </div>
     </section>
   );

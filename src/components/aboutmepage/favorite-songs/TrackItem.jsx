@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function TrackItem({ song }) {
   return (
     <li className="flex w-auto justify-between items-center h-[70px] bg-white bg-opacity-50 p-2 rounded-md">
-      <section className="flex">
+      <div className="flex">
         <div className="mr-3">
           <Image
             src={song.albumImageDest}
@@ -22,7 +22,7 @@ export default function TrackItem({ song }) {
             {song.artist}
           </small>
         </div>
-      </section>
+      </div>
       <nav className="flex gap-3">
         <a
           href={`${song.youtubeUrl}`}
