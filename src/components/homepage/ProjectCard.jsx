@@ -10,9 +10,15 @@ export default function ProjectCard({
   description,
 }) {
   return (
-    <div className="flex w-full bg-white bg-opacity-50 backdrop-blur-sm rounded-xl min-h-[600px] mb-10">
-      <section className="flex items-center justify-center w-1/2 p-10">
-        <div className="relative w-full h-full">
+    <div
+      className="flex flex-col w-full bg-white bg-opacity-50 backdrop-blur-sm rounded-xl min-h-[600px] mb-10 
+    lg:flex-row "
+    >
+      <section
+        className="flex items-center justify-center w-full
+      lg:p-5 lg:w-[45%]"
+      >
+        <div className="relative w-2/3 h-full aspect-[6/3] mt-5 lg:w-full lg:mt-0">
           <Image
             src="/images/RateMyStudySpot/0.png"
             alt="Study Spot"
@@ -23,15 +29,18 @@ export default function ProjectCard({
           />
         </div>
       </section>
-      <section className="flex flex-col items-start justify-around w-1/2 p-10">
+      <section
+        className="flex flex-col items-start p-10 lg:p-5
+      lg:w-1/2 lg:justify-around"
+      >
         <div>
           <h1 className="font-IBMBold text-sub-title-xl">RateMyStudySpot</h1>
           <p className="font-IBMMedium text-body-xl">UI/UX + Fullstack</p>
         </div>
-        <p className="font-IBMMedium text-body-xl text-customGray">
-          A web application focused on helping students explore study spots.
+        <p className="font-IBMMedium text-body-xl text-customGray my-7 lg:my-0">
+          A website focused on helping students explore study spots.
         </p>
-        <div className="flex flex-wrap w-full gap-5">
+        <div className="flex flex-wrap w-full gap-5 mb-7 lg:mb-0">
           {tags &&
             tags.map((tag, index) => (
               <div

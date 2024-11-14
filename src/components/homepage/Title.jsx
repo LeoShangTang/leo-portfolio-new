@@ -3,7 +3,7 @@ export default function Title() {
   return (
     <div className="flex flex-col w-full justify-center items-start mx-auto">
       <div className="flex h-auto gap-10">
-        <div className="relative min-w-[250px] flex-shrink-0">
+        <div className="relative min-w-[250px] flex-shrink-0 hidden lg:block">
           <Image
             src="/images/Me2.webp"
             alt="Picture of Leo Shang in the Museum"
@@ -15,7 +15,7 @@ export default function Title() {
           />
         </div>
         <div className="flex flex-col justify-center">
-          <div className="font-digifit text-title-xl mb-2 whitespace-nowrap">
+          <div className="font-digifit md:text-title-xl text-title-md mb-2">
             Leo Shang
           </div>
           <div className="font-IBMMedium text-body-xl">

@@ -15,7 +15,7 @@ export default function FreeTime() {
             <span className="font-IBMBold whitespace-nowrap">
               graphic designer
             </span>{" "}
-            for the Cooking Club and a{" "}
+            for Cooking Club and a{" "}
             <span className="font-IBMBold whitespace-nowrap">
               marketing strategist{" "}
             </span>{" "}

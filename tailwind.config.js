@@ -12,6 +12,10 @@ module.exports = {
         "sub-title-xl": "36px",
         "body-xl": "24px",
         "small-xl": "16px",
+        "title-md": "72px",
+        "sub-title-md": "27px",
+        "body-md": "18x",
+        "small-md": "12px",
       },
       fontFamily: {
         digifit: ["Digifit", "sans-serif"],

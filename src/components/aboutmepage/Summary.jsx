@@ -3,7 +3,9 @@ import Image from "next/image";
 export default function Summary() {
   return (
     <section className="flex flex-col items-center w-full mb-40">
-      <h1 className="text-title-xl font-digifit whitespace-nowrap">About me</h1>
+      <h1 className="text-title-xl font-digifit whitespace-nowrap mb-10">
+        About me
+      </h1>
       <div className="flex flex-row gap-10 w-full">
         <div className="relative w-1/3 aspect-square">
           <Image
