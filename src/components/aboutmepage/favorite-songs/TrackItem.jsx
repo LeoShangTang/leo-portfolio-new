@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function TrackItem({ song }) {
   return (
-    <li className="flex w-auto justify-between items-center h-[70px] bg-white bg-opacity-50 p-2 rounded-md">
+    <li className="flex w-auto justify-between items-center max-h-[70px] bg-white bg-opacity-50 p-2 rounded-md">
       <div className="flex">
-        <div className="mr-3">
+        <div className="mr-3 w-[45px] md:min-w-[60px]">
           <Image
             src={song.albumImageDest}
             alt={`Album image of ${song.title} by ${song.artist}`}
@@ -15,10 +15,10 @@ export default function TrackItem({ song }) {
           />
         </div>
         <div className="flex flex-col items-start">
-          <p className="font-IBMMedium text-body-xl whitespace-nowrap">
+          <p className="font-IBMMedium text-body-md md:text-body-xl whitespace-nowrap">
             {song.title}
           </p>
-          <small className="font-IBMMedium text-small-xl  whitespace-nowrap">
+          <small className="font-IBMMedium text-small-md md:text-small-xl  whitespace-nowrap">
             {song.artist}
           </small>
         </div>
@@ -28,7 +28,7 @@ export default function TrackItem({ song }) {
           href={`${song.youtubeUrl}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:brightness-75"
+          className="hover:brightness-75 md:min-w-[42px] w-[32px]"
         >
           <Image
             src="/images/icons/youtube.png"
@@ -43,7 +43,7 @@ export default function TrackItem({ song }) {
           href={`${song.spotifyUrl}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:brightness-75"
+          className="hover:brightness-75  md:min-w-[42px] w-[32px]"
         >
           <Image
             src="/images/icons/spotify.png"

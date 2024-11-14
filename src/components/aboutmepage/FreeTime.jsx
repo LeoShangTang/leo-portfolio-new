@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function FreeTime() {
   return (
     <section className="flex flex-row items-center gap-5 mb-40 w-full">
-      <article className="w-2/3">
-        <h2 className="font-IBMMedium text-sub-title-xl mb-10">
+      <article className="w-full lg:w-2/3">
+        <h2 className="font-IBMMedium text-sub-title-md md:text-sub-title-xl mb-10">
           What am I doing{" "}
           <span className="font-IBMBold whitespace-nowrap">outside</span> of
           school?
         </h2>
-        <div className="font-IBMMedium text-body-xl">
+        <div className="font-IBMMedium text-body-md md:text-body-xl">
           <p className="mb-7">
             I'm currently an executive member of two clubs, a{" "}
             <span className="font-IBMBold whitespace-nowrap">
@@ -36,7 +36,7 @@ export default function FreeTime() {
           </p>
         </div>
       </article>
-      <div className="relative w-1/3 aspect-square">
+      <div className="relative w-1/3 aspect-square hidden lg:block">
         <Image
           src="/images/Me3.webp"
           alt="Leo Shang outside in the wild again"

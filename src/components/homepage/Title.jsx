@@ -15,10 +15,10 @@ export default function Title() {
           />
         </div>
         <div className="flex flex-col justify-center">
-          <div className="font-digifit md:text-title-xl text-title-md mb-2">
+          <div className="font-digifit text-title-md mb-2 md:text-title-xl">
             Leo Shang
           </div>
-          <div className="font-IBMMedium text-body-xl">
+          <div className="font-IBMMedium text-body-md md:text-body-xl">
             I'm a 3rd-year computer science student with{" "}
             <span className="font-IBMBold whitespace-nowrap">Full Stack</span>{" "}
             and{" "}
@@ -28,7 +28,9 @@ export default function Title() {
         </div>
       </div>
 
-      <div className="font-IBMBold text-sub-title-xl mt-10 mb-1">My Work</div>
+      <div className="font-IBMBold mt-10 mb-1 text-sub-title-md md:text-sub-title-xl ">
+        My Work
+      </div>
     </div>
   );
 }

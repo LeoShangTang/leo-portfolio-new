@@ -4,7 +4,7 @@ import FreeTime from "@/components/aboutmepage/FreeTime";
 
 export default function About() {
   return (
-    <div className="flex flex-col items-center mx-auto min-h-screen max-w-[1280px] mt-28 px-5">
+    <div className="flex flex-col items-center mx-auto min-h-screen max-w-[1280px] mt-28 px-1 md:px-5">
       <Summary />
       <FreeTime />
       <FavoriteSongs />
