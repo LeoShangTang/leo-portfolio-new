@@ -4,7 +4,7 @@ import SongList from "./SongList";
 export default function GenreRec({ genreTitle, songsData, gradientUrl }) {
   return (
     <div className="flex w-full flex-col">
-      <p className="font-IBMBold text-body-xl">{genreTitle}</p>
+      <p className="font-IBMBold text-body-xl mb-2">{genreTitle}</p>
       <div className="flex">
         <div className="relative w-[90px] mr-2">
           <Image

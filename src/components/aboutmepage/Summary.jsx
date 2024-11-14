@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Summary() {
   return (
-    <section className="flex flex-col items-center w-full mb-32">
+    <section className="flex flex-col items-center w-full mb-40">
       <h1 className="text-title-xl font-digifit whitespace-nowrap">About me</h1>
       <div className="flex flex-row gap-10 w-full">
         <div className="relative w-1/2 aspect-square">
@@ -11,9 +11,9 @@ export default function Summary() {
             alt="Picture of Leo Shang in the Wilderness (UBC)"
             layout="fill"
             objectFit="cover"
-            className="rounded-lg"
             placeholder="blur"
             blurDataURL={`${process.env.PLACEHOLDER_BLUR}`}
+            className="rounded-lg"
           />
         </div>
         <div className="flex flex-col w-1/2 justify-evenly">

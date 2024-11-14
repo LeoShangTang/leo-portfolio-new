@@ -6,7 +6,7 @@ import GenreRec from "./GenreRec";
 
 export default function FavoriteSongs() {
   return (
-    <main className="flex flex-col justify-center items-center w-full ">
+    <main className="flex flex-col justify-center items-center w-full mb-40">
       <h2 className="text-sub-title-xl font-IBMMedium w-full mb-10">
         I love <span className="font-bold whitespace-nowrap">music</span>! Here
         are some of my{" "}
