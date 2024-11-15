@@ -20,8 +20,8 @@ export default function Title() {
           </div>
           <div className="font-IBMMedium text-body-md md:text-body-xl">
             I'm a 3rd-year computer science student with{" "}
-            <span className="font-IBMBold whitespace-nowrap">Full Stack</span>{" "}
-            and{" "}
+            <span className="font-IBMBold">Full</span>{" "}
+            <span className="font-IBMBold">Stack</span> and{" "}
             <span className="font-IBMBold whitespace-nowrap">UI/UX design</span>{" "}
             experience, designing and developing solutions to problems.
           </div>

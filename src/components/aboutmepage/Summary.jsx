@@ -18,7 +18,7 @@ export default function Summary() {
             className="rounded-lg"
           />
         </div>
-        <article className="flex flex-col w-[90%] lg:w-2/3 justify-center">
+        <article className="flex flex-col w-full lg:w-2/3 justify-center">
           <h2 className="font-IBMRegular mb-10 text-sub-title-md md:text-sub-title-xl">
             I’m{" "}
             <span className="font-IBMBold whitespace-nowrap">Leo Shang</span>, a
@@ -29,10 +29,9 @@ export default function Summary() {
             since high school and{" "}
             <span className="font-IBMBold whitespace-nowrap">designing</span>{" "}
             since middle school, I love turning ideas into{" "}
-            <span className="font-IBMBold whitespace-nowrap">
-              visual concepts
-            </span>{" "}
-            and bringing them to life through{" "}
+            <span className="font-IBMBold">visual</span>{" "}
+            <span className="font-IBMBold">concepts</span> and bringing them to
+            life through{" "}
             <span className="font-IBMBold whitespace-nowrap">code</span>.
           </h2>
         </article>
