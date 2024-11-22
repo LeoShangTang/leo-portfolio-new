@@ -9,7 +9,9 @@ export default function GenreRec({ genreTitle, songsData, gradientUrl }) {
           <Image
             src={gradientUrl}
             alt={`Color gradient of ${genreTitle}`}
-            objectFit="cover"
+            style={{
+              objectFit: "cover",
+            }}
             fill
             className="rounded-xl"
           />
@@ -19,12 +21,14 @@ export default function GenreRec({ genreTitle, songsData, gradientUrl }) {
         </p>
       </div>
       <div className="flex">
-        <div className="relative mr-2 min-w-[30px] sm:min-w-[250px] lg:hidden block">
+        <div className="relative mr-2 min-w-[30px] sm:min-w-[100px] lg:hidden block">
           <Image
             src={gradientUrl}
             alt={`Color gradient of ${genreTitle}`}
             fill
-            objectFit="cover"
+            style={{
+              objectFit: "cover",
+            }}
             className="rounded-xl"
           />
         </div>

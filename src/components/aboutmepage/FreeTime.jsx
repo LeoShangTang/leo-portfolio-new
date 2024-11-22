@@ -5,32 +5,16 @@ export default function FreeTime() {
     <section className="flex flex-row items-center gap-5 mb-40 w-full">
       <article className="w-full lg:w-2/3">
         <h2 className="font-IBMMedium text-sub-title-md md:text-sub-title-xl mb-10">
-          What am I doing <span className="font-IBMBold">outside</span> of
-          school?
+          What am I doing outside of school?
         </h2>
         <div className="font-IBMMedium text-body-md md:text-body-xl">
           <p className="mb-7">
-            I'm currently an executive member of two clubs, a{" "}
-            <span className="font-IBMBold whitespace-nowrap">
-              graphic designer
-            </span>{" "}
-            for Cooking Club and a{" "}
-            <span className="font-IBMBold">marketing </span>{" "}
-            <span className="font-IBMBold">strategist </span>
-            and{" "}
-            <span className="font-IBMBold whitespace-nowrap">
-              UI/UX developer
-            </span>{" "}
-            for BOLT UBC.
+            I'm currently execs of two clubs, a graphic designer for Cooking
+            Club and a marketing strategist + UI/UX developer for BOLT UBC.
           </p>
           <p>
-            In my free time, I enjoy staying active by playing{" "}
-            <span className="font-IBMBold whitespace-nowrap">badminton</span>{" "}
-            and going to the gym, and I also love doing{" "}
-            <span className="font-IBMBold whitespace-nowrap">
-              graphic design
-            </span>
-            !
+            In my free time, I like staying active by playing badminton and
+            going to the gym. I also love doing graphic design!
           </p>
         </div>
       </article>
@@ -39,7 +23,9 @@ export default function FreeTime() {
           src="/images/Me3.webp"
           alt="Leo Shang outside in the wild again"
           layout="fill"
-          objectFit="cover"
+          style={{
+            objectFit: "cover",
+          }}
           placeholder="blur"
           blurDataURL={`${process.env.PLACEHOLDER_BLUR}`}
           className="rounded-lg"
