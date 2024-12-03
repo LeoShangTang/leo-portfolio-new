@@ -2,6 +2,7 @@ import Image from "next/image";
 import { FaGithub, FaLinkedin, FaJava } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { IoLocationSharp } from "react-icons/io5";
 import {
   SiTypescript,
   SiTailwindcss,
@@ -13,6 +14,7 @@ import {
   SiFigma,
   SiMongodb,
   SiCplusplus,
+  SiJavascript,
 } from "react-icons/si";
 
 export default function Title() {
@@ -20,6 +22,10 @@ export default function Title() {
     {
       name: "TypeScript",
       icon: <SiTypescript size={24} color={"#007acc"} />,
+    },
+    {
+      name: "JavaScript",
+      icon: <SiJavascript size={24} color={"#E9B626"} />,
     },
     {
       name: "Java",
@@ -91,6 +97,11 @@ export default function Title() {
             <span className="font-IBMBold">developer</span> and 3rd-year
             computer science student
           </div>
+          <div className="flex flex-row items-center font-IBMMedium text-small-md md:text-small-xl  mt-5 gap-2">
+            <IoLocationSharp size={24} />
+            Vancouver, BC, Canada
+          </div>
+
           <div className="flex flex-row gap-3 mt-5">
             <a
               href="https://github.com/LeoShangTang"
@@ -98,7 +109,7 @@ export default function Title() {
               rel="noopener noreferrer"
               className="opacity-90 hover:opacity-100"
             >
-              <FaGithub size={32} />
+              <FaGithub size={24} />
             </a>
 
             <a
@@ -107,7 +118,7 @@ export default function Title() {
               rel="noopener noreferrer"
               className="opacity-80 hover:opacity-100"
             >
-              <FaLinkedin size={32} />
+              <FaLinkedin size={24} />
             </a>
 
             <a
@@ -116,7 +127,7 @@ export default function Title() {
               rel="noopener noreferrer"
               className="opacity-80 hover:opacity-100"
             >
-              <MdEmail size={32} />
+              <MdEmail size={24} />
             </a>
           </div>
         </div>
@@ -136,7 +147,7 @@ export default function Title() {
             </div>
           ))}
       </div>
-      <div className="font-IBMBold mt-10 mb-5 mb-1 text-sub-title-md md:text-sub-title-xl ">
+      <div className="font-IBMBold mt-10 mb-5 text-sub-title-md md:text-sub-title-xl ">
         My Projects
       </div>
     </div>

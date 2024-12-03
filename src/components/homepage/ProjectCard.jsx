@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function ProjectCard({
   thumbnail,
   title,
-  roles,
+  role,
   tags,
   description,
 }) {
@@ -26,23 +26,22 @@ export default function ProjectCard({
       <section className="flex flex-col items-start p-10 lg:p-5 lg:w-1/2 lg:justify-around">
         <div>
           <h1 className="font-IBMBold text-sub-title-md md:text-sub-title-xl">
-            RateMyStudySpot
+            {title}
           </h1>
-          <p className="font-IBMMedium text-body-md md:text-body-xl">
-            UI/UX + Fullstack
-          </p>
+          <p className="font-IBMMedium text-body-md md:text-body-xl">{role}</p>
         </div>
         <p className="font-IBMMedium text-body-md text-customGray my-7 lg:my-0 md:text-body-xl">
-          A website focused on helping students explore study spots.
+          {description}
         </p>
         <div className="flex flex-wrap w-full gap-5 mb-7 lg:mb-0">
           {tags &&
             tags.map((tag, index) => (
               <div
                 key={index}
-                className="font-IBMMedium text-[12px] flex items-center justify-center w-fit bg-[#D9D9D9] rounded-full px-4 py-1 md:text-small-xl "
+                className="flex items-center gap-2 px-3 py-2 bg-white bg-opacity-50 rounded-lg"
               >
-                {tag}
+                {tag.icon}
+                <span className="font-IBMBold text-small-xl">{tag.name}</span>
               </div>
             ))}
         </div>
