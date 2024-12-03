@@ -12,7 +12,7 @@ export default function ProjectCard({
   return (
     <div className="flex flex-col w-full bg-white bg-opacity-50 backdrop-blur-sm rounded-xl mb-10 lg:flex-row min-h-[600px]">
       <section className="flex items-center justify-center w-full lg:p-5 lg:w-[45%]">
-        <div className="relative w-2/3 h-full aspect-[6/3] mt-5 lg:w-full lg:mt-0">
+        <div className="relative w-[80%] h-full aspect-[6/3] mt-5 lg:w-full lg:mt-0">
           <Image
             src="/images/RateMyStudySpot/0.png"
             alt="Study Spot"
@@ -40,7 +40,7 @@ export default function ProjectCard({
             tags.map((tag, index) => (
               <div
                 key={index}
-                className="font-IBMMedium text-[15px] flex items-center justify-center w-fit bg-[#D9D9D9] rounded-full px-4 py-1 md:text-[20px]"
+                className="font-IBMMedium text-[12px] flex items-center justify-center w-fit bg-[#D9D9D9] rounded-full px-4 py-1 md:text-small-xl "
               >
                 {tag}
               </div>
