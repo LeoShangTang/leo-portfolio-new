@@ -1,12 +1,13 @@
 "use client";
 import PrimaryButton from "../common/PrimaryButton";
 import Image from "next/image";
+import TechTag from "../common/TechTag";
 
 export default function ProjectCard({
   thumbnail,
   title,
   role,
-  tags,
+  technologies,
   description,
 }) {
   return (
@@ -34,15 +35,9 @@ export default function ProjectCard({
           {description}
         </p>
         <div className="flex flex-wrap w-full gap-5 mb-7 lg:mb-0">
-          {tags &&
-            tags.map((tag, index) => (
-              <div
-                key={index}
-                className="flex items-center gap-2 px-3 py-2 bg-white bg-opacity-50 rounded-lg"
-              >
-                {tag.icon}
-                <span className="font-IBMBold text-small-xl">{tag.name}</span>
-              </div>
+          {technologies &&
+            technologies.map((tech, index) => (
+              <TechTag tech={tech} key={index} />
             ))}
         </div>
         <PrimaryButton

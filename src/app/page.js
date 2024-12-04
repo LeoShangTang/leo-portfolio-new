@@ -16,7 +16,7 @@ import {
 import { BiLogoPostgresql } from "react-icons/bi";
 
 function HomePage() {
-  const RateMyStudySpotTags = [
+  const RateMyStudySpotTech = [
     {
       name: "TypeScript",
       icon: <SiTypescript size={24} color={"#007acc"} />,
@@ -44,7 +44,7 @@ function HomePage() {
         description={
           " A website focused on helping students explore study spots."
         }
-        tags={RateMyStudySpotTags}
+        technologies={RateMyStudySpotTech}
       />
     </div>
   );

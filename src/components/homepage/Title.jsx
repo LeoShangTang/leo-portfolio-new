@@ -16,6 +16,7 @@ import {
   SiCplusplus,
   SiJavascript,
 } from "react-icons/si";
+import TechTag from "../common/TechTag";
 
 export default function Title() {
   const technologies = [
@@ -138,13 +139,7 @@ export default function Title() {
       <div className="flex flex-wrap gap-3 mt-5">
         {technologies &&
           technologies.map((tech, index) => (
-            <div
-              key={index}
-              className="flex items-center gap-2 px-3 py-2 bg-white bg-opacity-50 rounded-lg"
-            >
-              {tech.icon}
-              <span className="font-IBMBold text-small-xl">{tech.name}</span>
-            </div>
+            <TechTag tech={tech} key={index} />
           ))}
       </div>
       <div className="font-IBMBold mt-10 mb-5 text-sub-title-md md:text-sub-title-xl ">
