@@ -98,7 +98,7 @@ export default function Title() {
             <span className="font-IBMBold">developer</span> and 3rd-year
             computer science student
           </div>
-          <div className="flex flex-row items-center font-IBMMedium text-small-md md:text-small-xl  mt-5 gap-2">
+          <div className="flex flex-row items-center font-IBMBold text-small-md md:text-small-xl  mt-5 gap-2">
             <IoLocationSharp size={24} />
             Vancouver, BC, Canada
           </div>
