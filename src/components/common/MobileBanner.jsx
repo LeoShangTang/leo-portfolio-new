@@ -17,7 +17,7 @@ export default function MobileBanner() {
 
   return (
     <div className="md:hidden">
-      <div className="flex justify-between items-center w-full p-4">
+      <div className="flex justify-between items-center w-full p-4 fixed top-[0px] left-[0px] backdrop-blur-md z-10">
         <div className="flex items-center">
           <Image
             src="/favicon.ico"
