@@ -110,22 +110,22 @@ function HomePage() {
     <div className="flex flex-col items-center mx-auto min-h-screen max-w-[1280px] mt-28 px-5">
       <Title />
       <ProjectCard
-        title="Yelp AI Chatbox"
-        role="UI/UX"
-        thumbnail="/images/YelpChatbox/0.png"
-        description={
-          "A usability study using for a Yelp chatbox to aid business navigation."
-        }
-        technologies={YelpChatBoxTech}
-      />
-      <ProjectCard
         title="DashWash"
         role="Full Stack"
         thumbnail="/images/DashWash/0.png"
         description={
-          "A dashboard based website for users to assist with their laundry."
+          "A web-based dashboard designed for users to book laundry machines"
         }
         technologies={DashWashTech}
+      />
+      <ProjectCard
+        title="Yelp AI Chatbox"
+        role="UI/UX"
+        thumbnail="/images/YelpChatbox/0.png"
+        description={
+          "A usability study for a Yelp chatbox to aid business navigation."
+        }
+        technologies={YelpChatBoxTech}
       />
       <ProjectCard
         title="RateMyStudySpot"

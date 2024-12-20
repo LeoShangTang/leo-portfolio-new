@@ -11,7 +11,8 @@ export default function Summary() {
           <Image
             src="/images/Me1.jpg"
             alt="Picture of Leo Shang in the Wilderness (UBC)"
-            layout="fill"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             style={{
               objectFit: "cover",
             }}

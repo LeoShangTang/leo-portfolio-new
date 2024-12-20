@@ -90,7 +90,8 @@ export default function Title() {
           <Image
             src="/images/Me2.webp"
             alt="Picture of Leo Shang in the Museum"
-            layout="fill"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             style={{
               objectFit: "cover",
             }}
