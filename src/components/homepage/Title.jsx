@@ -15,6 +15,8 @@ import {
   SiMongodb,
   SiCplusplus,
   SiJavascript,
+  SiNodedotjs,
+  SiRedux,
 } from "react-icons/si";
 import TechTag from "../common/TechTag";
 
@@ -22,55 +24,63 @@ export default function Title() {
   const technologies = [
     {
       name: "TypeScript",
-      icon: <SiTypescript size={24} color={"#007acc"} />,
+      icon: <SiTypescript color={"#007acc"} />,
     },
     {
       name: "JavaScript",
-      icon: <SiJavascript size={24} color={"#E9B626"} />,
+      icon: <SiJavascript color={"#E9B626"} />,
     },
     {
       name: "Java",
-      icon: <FaJava size={24} color={"black"} />,
+      icon: <FaJava color={"black"} />,
     },
     {
       name: "C++",
-      icon: <SiCplusplus size={24} color={"#6294CD"} />,
+      icon: <SiCplusplus color={"#6294CD"} />,
     },
     {
       name: "HTML",
-      icon: <SiHtml5 size={24} color={"#f06529"} />,
+      icon: <SiHtml5 color={"#f06529"} />,
     },
     {
       name: "CSS",
-      icon: <SiCss3 size={24} color={"#2464F0"} />,
+      icon: <SiCss3 color={"#2464F0"} />,
     },
     {
       name: "React",
-      icon: <SiReact size={24} color={"#0081A3"} />,
+      icon: <SiReact color={"#0081A3"} />,
+    },
+    {
+      name: "Redux",
+      icon: <SiRedux color={"#7948BB"} />,
     },
     {
       name: "Tailwind",
-      icon: <SiTailwindcss size={24} color={"#38BCF9"} />,
+      icon: <SiTailwindcss color={"#38BCF9"} />,
     },
     {
       name: "Next.js",
-      icon: <SiNextdotjs size={24} color={"black"} />,
+      icon: <SiNextdotjs color={"black"} />,
+    },
+    {
+      name: "Node.js",
+      icon: <SiNodedotjs color={"#699F62"} />,
     },
     {
       name: "PostgresSQL",
-      icon: <BiLogoPostgresql size={24} color={"#326691"} />,
+      icon: <BiLogoPostgresql color={"#326691"} />,
     },
     {
       name: "MongoDB",
-      icon: <SiMongodb size={24} color={"#6CAD49"} />,
+      icon: <SiMongodb color={"#6CAD49"} />,
     },
     {
       name: "Figma",
-      icon: <SiFigma size={24} color={"#090908"} />,
+      icon: <SiFigma color={"#090908"} />,
     },
     {
       name: "GIT",
-      icon: <SiGit size={24} color={"black"} />,
+      icon: <SiGit color={"black"} />,
     },
   ];
   return (
@@ -99,7 +109,9 @@ export default function Title() {
             computer science student
           </div>
           <div className="flex flex-row items-center font-IBMBold text-small-md md:text-small-xl  mt-5 gap-2">
-            <IoLocationSharp size={24} />
+            <div className="text-[18px] md:text-[24px]">
+              <IoLocationSharp />
+            </div>
             Vancouver, BC, Canada
           </div>
 
@@ -108,27 +120,27 @@ export default function Title() {
               href="https://github.com/LeoShangTang"
               target="_blank"
               rel="noopener noreferrer"
-              className="opacity-90 hover:opacity-100"
+              className="opacity-90 hover:opacity-100 text-[18px] md:text-[24px]"
             >
-              <FaGithub size={24} />
+              <FaGithub />
             </a>
 
             <a
               href="https://www.linkedin.com/in/leo-shang-604911267/"
               target="_blank"
               rel="noopener noreferrer"
-              className="opacity-80 hover:opacity-100"
+              className="opacity-80 hover:opacity-100 text-[18px] md:text-[24px]"
             >
-              <FaLinkedin size={24} />
+              <FaLinkedin />
             </a>
 
             <a
               href="mailto:leoshang12@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="opacity-80 hover:opacity-100"
+              className="opacity-80 hover:opacity-100 text-[18px] md:text-[24px]"
             >
-              <MdEmail size={24} />
+              <MdEmail />
             </a>
           </div>
         </div>
@@ -136,7 +148,7 @@ export default function Title() {
       <div className="font-IBMBold mt-10 mb-1  text-sub-title-md md:text-sub-title-xl ">
         Skills
       </div>
-      <div className="flex flex-wrap gap-3 mt-5">
+      <div className="flex flex-wrap gap-2 md:gap-3 mt-5">
         {technologies &&
           technologies.map((tech, index) => (
             <TechTag tech={tech} key={index} />

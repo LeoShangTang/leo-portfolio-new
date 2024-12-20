@@ -12,39 +12,138 @@ import {
   SiMongodb,
   SiCplusplus,
   SiJavascript,
+  SiNodedotjs,
+  SiRedux,
 } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 function HomePage() {
-  const RateMyStudySpotTech = [
+  const YelpChatBoxTech = [
     {
-      name: "TypeScript",
-      icon: <SiTypescript size={24} color={"#007acc"} />,
+      name: "Figma",
+      icon: <SiFigma color={"#090908"} />,
     },
+  ];
+  const DashWashTech = [
     {
-      name: "PostgresSQL",
-      icon: <BiLogoPostgresql size={24} color={"#326691"} />,
+      name: "JavaScript",
+      icon: <SiJavascript color={"#E9B626"} />,
     },
     {
       name: "React",
-      icon: <SiReact size={24} color={"#0081A3"} />,
+      icon: <SiReact color={"#0081A3"} />,
     },
-    ,
+    {
+      name: "Tailwind",
+      icon: <SiTailwindcss color={"#38BCF9"} />,
+    },
+    {
+      name: "Node.js",
+      icon: <SiNodedotjs color={"#699F62"} />,
+    },
+    {
+      name: "PostgresSQL",
+      icon: <BiLogoPostgresql color={"#326691"} />,
+    },
+    {
+      name: "GIT",
+      icon: <SiGit color={"black"} />,
+    },
     {
       name: "Figma",
-      icon: <SiFigma size={24} color={"#090908"} />,
+      icon: <SiFigma color={"#090908"} />,
+    },
+  ];
+  const RateMyStudySpotTech = [
+    {
+      name: "TypeScript",
+      icon: <SiTypescript color={"#007acc"} />,
+    },
+    {
+      name: "React",
+      icon: <SiReact color={"#0081A3"} />,
+    },
+    {
+      name: "CSS",
+      icon: <SiCss3 color={"#2464F0"} />,
+    },
+    {
+      name: "PostgresSQL",
+      icon: <BiLogoPostgresql color={"#326691"} />,
+    },
+    {
+      name: "Node.js",
+      icon: <SiNodedotjs color={"#699F62"} />,
+    },
+    {
+      name: "GIT",
+      icon: <SiGit color={"black"} />,
+    },
+    {
+      name: "Figma",
+      icon: <SiFigma color={"#090908"} />,
+    },
+  ];
+  const PartyTimeTech = [
+    {
+      name: "TypeScript",
+      icon: <SiTypescript color={"#007acc"} />,
+    },
+    {
+      name: "React",
+      icon: <SiReact color={"#0081A3"} />,
+    },
+    {
+      name: "Redux",
+      icon: <SiRedux color={"#7948BB"} />,
+    },
+    {
+      name: "CSS",
+      icon: <SiCss3 color={"#2464F0"} />,
+    },
+    {
+      name: "GIT",
+      icon: <SiGit color={"black"} />,
     },
   ];
   return (
     <div className="flex flex-col items-center mx-auto min-h-screen max-w-[1280px] mt-28 px-5">
       <Title />
       <ProjectCard
+        title="Yelp AI Chatbox"
+        role="UI/UX"
+        thumbnail="/images/YelpChatbox/0.png"
+        description={
+          "A usability study using for a Yelp chatbox to aid business navigation."
+        }
+        technologies={YelpChatBoxTech}
+      />
+      <ProjectCard
+        title="DashWash"
+        role="Full Stack"
+        thumbnail="/images/DashWash/0.png"
+        description={
+          "A dashboard based website for users to assist with their laundry."
+        }
+        technologies={DashWashTech}
+      />
+      <ProjectCard
         title="RateMyStudySpot"
         role="Full Stack"
+        thumbnail="/images/RateMyStudySpot/0.png"
         description={
-          " A website focused on helping students explore study spots."
+          "A website focused on helping students explore study spots."
         }
         technologies={RateMyStudySpotTech}
+      />
+      <ProjectCard
+        title="PartyTime"
+        role="Frontend"
+        thumbnail="/images/PartyCalculator/0.png"
+        description={
+          "An application for helping students split food and drink costs for parties."
+        }
+        technologies={PartyTimeTech}
       />
     </div>
   );

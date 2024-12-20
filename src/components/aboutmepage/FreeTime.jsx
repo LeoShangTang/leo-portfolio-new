@@ -4,8 +4,8 @@ export default function FreeTime() {
   return (
     <section className="flex flex-row items-center gap-5 mb-40 w-full">
       <article className="w-full lg:w-2/3">
-        <h2 className="font-IBMMedium text-sub-title-md md:text-sub-title-xl mb-10">
-          What am I doing outside of school?
+        <h2 className="font-IBMBold text-sub-title-md md:text-sub-title-xl mb-10">
+          My Interests
         </h2>
         <div className="font-IBMMedium text-body-md md:text-body-xl">
           <p className="mb-7">

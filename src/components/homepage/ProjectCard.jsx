@@ -11,11 +11,11 @@ export default function ProjectCard({
   description,
 }) {
   return (
-    <div className="flex flex-col w-full bg-white bg-opacity-50 backdrop-blur-sm rounded-xl mb-10 lg:flex-row min-h-[600px]">
+    <div className="flex flex-col w-full bg-white bg-opacity-40 backdrop-blur-sm rounded-xl mb-10 lg:flex-row md:min-h-[600px]">
       <section className="flex items-center justify-center w-full lg:p-5 lg:w-[45%]">
         <div className="relative w-[80%] h-full aspect-[6/3] mt-5 lg:w-full lg:mt-0">
           <Image
-            src="/images/RateMyStudySpot/0.png"
+            src={thumbnail}
             alt="Study Spot"
             fill
             className="object-contain"
@@ -34,16 +34,16 @@ export default function ProjectCard({
         <p className="font-IBMMedium text-body-md text-customGray my-7 lg:my-0 md:text-body-xl">
           {description}
         </p>
-        <div className="flex flex-wrap w-full gap-5 mb-7 lg:mb-0">
+        <div className="flex flex-wrap w-full gap-2 md:gap-3 mb-7 lg:mb-0">
           {technologies &&
             technologies.map((tech, index) => (
               <TechTag tech={tech} key={index} />
             ))}
         </div>
-        <PrimaryButton
+        {/* <PrimaryButton
           onClick={() => console.log("hello")}
           text={"View Work"}
-        />
+        /> */}
       </section>
     </div>
   );

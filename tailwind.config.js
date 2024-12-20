@@ -14,7 +14,7 @@ module.exports = {
         "small-xl": "16px",
         "title-md": "72px",
         "sub-title-md": "27px",
-        "body-md": "18x",
+        "body-md": "18px",
         "small-md": "12px",
       },
       fontFamily: {
