@@ -16,7 +16,7 @@ export default function MobileBanner() {
   };
 
   return (
-    <div>
+    <div className="md:hidden">
       <div className="flex justify-between items-center w-full p-4">
         <div className="flex items-center">
           <Image
@@ -32,7 +32,7 @@ export default function MobileBanner() {
         <div onClick={() => setIsMenuOpen(true)} className="cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6"
+            className="h-7 w-7"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

@@ -7,12 +7,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {/* <div>
-          <Banner />
-        </div> */}
-        <div>
-          <MobileBanner />
-        </div>
+        <Banner />
+        <MobileBanner />
+        <div></div>
         <div className="fixed inset-0 z-[-5] bg-cover bg-center bg-white bg-opacity-80" />
         <div className="fixed inset-0 -z-10 overflow-hidden">
           <Image
