@@ -6,7 +6,7 @@ import GenreRec from "./GenreRec";
 
 export default function FavoriteSongs() {
   return (
-    <main className="flex flex-col justify-center items-center w-full mb-40">
+    <main className="flex flex-col justify-center items-center w-full">
       <h2 className="text-sub-title-md md:text-sub-title-xl font-IBMBold w-full mb-10">
         Here are some of my favorite songs
       </h2>

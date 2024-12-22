@@ -3,6 +3,7 @@ import Image from "next/image";
 import Banner from "@/components/common/Banner";
 import MobileBanner from "@/components/common/MobileBanner";
 import { Analytics } from "@vercel/analytics/react";
+import Footer from "@/components/common/Footer";
 
 export default function RootLayout({ children }) {
   return (
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
           />
         </div>
         {children}
+        <Footer />
         <Analytics />
       </body>
     </html>
