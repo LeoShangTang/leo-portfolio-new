@@ -11,7 +11,7 @@ export default function Banner() {
 
   return (
     <div className="hidden md:block">
-      <nav className="flex items-center h-[50px] w-full whitespace-nowrap lg:text-[20px] text-[17px] justify-between fixed top-[5px] left-[0px] backdrop-blur-md z-10">
+      <nav className="flex items-center h-[60px] w-full whitespace-nowrap lg:text-[20px] text-[17px] justify-between fixed top-[0px] left-[0px] backdrop-blur-md z-10">
         <div className="flex items-center ml-3">
           <Image
             src="/favicon.ico"
