@@ -11,7 +11,7 @@ export default function Banner() {
 
   return (
     <div className="hidden md:block">
-      <nav className="flex items-center h-[50px] w-full whitespace-nowrap lg:text-[20px] text-[17px] justify-between fixed top-[0px] left-[0px] backdrop-blur-md z-10">
+      <nav className="flex items-center h-[50px] w-full whitespace-nowrap lg:text-[20px] text-[17px] justify-between fixed top-[5px] left-[0px] backdrop-blur-md z-10">
         <div className="flex items-center ml-3">
           <Image
             src="/favicon.ico"
@@ -23,12 +23,12 @@ export default function Banner() {
           />
           <a className="font-digifit text-body-xl px-6">Leo Shang</a>
         </div>
-        <div>
+        <div className="flex flex-row gap-5">
           <Link
             className={`font-IBMMedium text-body-xl px-6 ${
               isHomePage
-                ? "text-white bg-[#002AFF]  hover:bg-[#001FCC] hover:text-gray-100 py-1 rounded-full"
-                : ""
+                ? "text-white bg-[#002AFF]  py-1 rounded-full"
+                : "hover:bg-white bg-opacity-50 transition-colors py-1 rounded-full"
             }`}
             href="/"
           >
@@ -37,8 +37,8 @@ export default function Banner() {
           <Link
             className={`font-IBMMedium text-body-xl px-6 ${
               isAboutPage
-                ? "text-white bg-[#002AFF]  hover:bg-[#001FCC] hover:text-gray-100 py-1 rounded-full"
-                : ""
+                ? "text-white bg-[#002AFF]  py-1 rounded-full"
+                : "hover:bg-white bg-opacity-50 transition-colors py-1 rounded-full"
             }`}
             href="/about"
           >
@@ -48,7 +48,7 @@ export default function Banner() {
             href="https://drive.google.com/file/d/1tejVYfIfNaG9MtQx6fwCBLotd5OgTMXw/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-IBMMedium text-body-xl px-6"
+            className="font-IBMMedium text-body-xl px-6 hover:bg-white bg-opacity-50 transition-colors py-1 rounded-full mr-2"
           >
             Resume
           </a>

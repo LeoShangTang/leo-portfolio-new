@@ -121,7 +121,7 @@ export default function Title() {
               href="https://github.com/LeoShangTang"
               target="_blank"
               rel="noopener noreferrer"
-              className="opacity-90 hover:opacity-100 text-[18px] md:text-[24px]"
+              className="opacity-90 hover:opacity-100 text-[18px] md:text-[24px] hover:-translate-y-1 transition-all"
             >
               <FaGithub />
             </a>
@@ -130,7 +130,7 @@ export default function Title() {
               href="https://www.linkedin.com/in/leo-shang-604911267/"
               target="_blank"
               rel="noopener noreferrer"
-              className="opacity-80 hover:opacity-100 text-[18px] md:text-[24px]"
+              className="opacity-80 hover:opacity-100 text-[18px] md:text-[24px] hover:-translate-y-1 transition-all"
             >
               <FaLinkedin />
             </a>
@@ -139,7 +139,7 @@ export default function Title() {
               href="mailto:leoshang12@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="opacity-80 hover:opacity-100 text-[18px] md:text-[24px]"
+              className="opacity-80 hover:opacity-100 text-[18px] md:text-[24px] hover:-translate-y-1 transition-all"
             >
               <MdEmail />
             </a>
