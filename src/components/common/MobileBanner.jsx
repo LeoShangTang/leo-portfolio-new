@@ -58,7 +58,7 @@ export default function MobileBanner() {
               href="/"
               className={`font-IBMMedium text-body-xl px-6 py-1 rounded-full ${
                 isHomePage
-                  ? "text-white bg-[#002AFF] hover:bg-[#001FCC] hover:text-gray-100"
+                  ? "text-white bg-primary hover:bg-[#001FCC] hover:text-gray-100"
                   : "text-gray-700 hover:bg-gray-100"
               }`}
             >
@@ -68,7 +68,7 @@ export default function MobileBanner() {
               href="/about"
               className={`font-IBMMedium text-body-xl px-6 py-1 rounded-full ${
                 isAboutPage
-                  ? "text-white bg-[#002AFF] hover:bg-[#001FCC] hover:text-gray-100"
+                  ? "text-white bg-primary hover:bg-[#001FCC] hover:text-gray-100"
                   : "text-gray-700 hover:bg-gray-100"
               }`}
             >

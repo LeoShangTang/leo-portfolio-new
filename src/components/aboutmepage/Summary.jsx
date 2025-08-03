@@ -26,9 +26,8 @@ export default function Summary() {
             I’m Leo Shang, a computer science student at UBC.
           </h2> */}
           <h2 className="font-IBMMedium text-body-md md:text-body-xl">
-            Programing since high school and designing since middle school, I
-            love turning ideas into visual concepts and bringing them to life
-            through code.
+              I've been messing around with design since middle school and picked up programming in high school. 
+              Ever since, I've loved finding ways to turn rough ideas into things people can actually see and use.
           </h2>
         </article>
       </div>

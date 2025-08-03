@@ -1,4 +1,6 @@
 import Image from "next/image";
+
+// ICONS FROM: https://react-icons.github.io/react-icons/
 import { FaGithub, FaLinkedin, FaJava } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BiLogoPostgresql } from "react-icons/bi";
@@ -7,6 +9,7 @@ import {
   SiTypescript,
   SiTailwindcss,
   SiReact,
+  SiVuedotjs,
   SiNextdotjs,
   SiHtml5,
   SiCss3,
@@ -17,6 +20,7 @@ import {
   SiJavascript,
   SiNodedotjs,
   SiRedux,
+  SiPython,
 } from "react-icons/si";
 import TechTag from "../common/TechTag";
 
@@ -35,6 +39,10 @@ export default function Title() {
       icon: <FaJava color={"black"} />,
     },
     {
+      name: "Python",
+      icon: <SiPython color="#4584B6"/>
+    },
+    {
       name: "C++",
       icon: <SiCplusplus color={"#6294CD"} />,
     },
@@ -45,6 +53,10 @@ export default function Title() {
     {
       name: "CSS",
       icon: <SiCss3 color={"#2464F0"} />,
+    },
+    {
+      name: "Vue",
+      icon: <SiVuedotjs color={"#42b883"} />,
     },
     {
       name: "React",

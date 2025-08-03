@@ -27,7 +27,7 @@ export default function Banner() {
           <Link
             className={`font-IBMMedium text-body-xl px-6 ${
               isHomePage
-                ? "text-white bg-[#002AFF]  py-1 rounded-full"
+                ? "text-white bg-primary  py-1 rounded-full"
                 : "hover:bg-white bg-opacity-50 transition-colors py-1 rounded-full"
             }`}
             href="/"
@@ -37,12 +37,12 @@ export default function Banner() {
           <Link
             className={`font-IBMMedium text-body-xl px-6 ${
               isAboutPage
-                ? "text-white bg-[#002AFF]  py-1 rounded-full"
+                ? "text-white bg-primary  py-1 rounded-full"
                 : "hover:bg-white bg-opacity-50 transition-colors py-1 rounded-full"
             }`}
             href="/about"
           >
-            About
+            About Me
           </Link>
           <a
             href="https://drive.google.com/file/d/1tejVYfIfNaG9MtQx6fwCBLotd5OgTMXw/view?usp=sharing"
