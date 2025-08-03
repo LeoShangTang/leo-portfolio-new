@@ -8,8 +8,8 @@ export default function MobileBanner() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathName = usePathname();
 
-  const isHomePage = pathName === "/";
-  const isAboutPage = pathName === "/about";
+  const isOnHomePage = pathName === "/";
+  const isOnAboutPage = pathName === "/about";
 
   const closeMenu = () => {
     setIsMenuOpen(false);
@@ -17,8 +17,8 @@ export default function MobileBanner() {
 
   return (
     <div className="md:hidden">
-      <div className="flex justify-between items-center w-full p-4 fixed top-[0px] left-[0px] backdrop-blur-md z-10">
-        <div className="flex items-center">
+      <div className="flex justify-between items-center w-full py-4 fixed top-[0px] left-[0px] backdrop-blur-md z-10">
+        <a href="/" className="flex justify-between items-center font-digifit text-body-xl px-3 ml-3 gap-3">
           <Image
             src="/favicon.ico"
             alt="Site Icon"
@@ -27,9 +27,11 @@ export default function MobileBanner() {
             className="mb-2"
             placeholder="empty"
           />
-          <span className="font-digifit text-body-xl px-6">Leo Shang</span>
-        </div>
-        <div onClick={() => setIsMenuOpen(true)} className="cursor-pointer">
+          <span>
+            Leo Shang
+          </span>
+        </a>
+        <button onClick={() => setIsMenuOpen(true)} className="cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-7 w-7"
@@ -44,7 +46,7 @@ export default function MobileBanner() {
               d="M4 6h16M4 12h16M4 18h16"
             />
           </svg>
-        </div>
+        </button>
       </div>
 
       {/* Overlay Navigation (Mobile) */}
@@ -56,8 +58,11 @@ export default function MobileBanner() {
           <div className="flex flex-col items-center justify-center w-full h-full bg-white bg-opacity-80 space-y-6">
             <Link
               href="/"
-              className={`font-IBMMedium text-body-xl px-6 py-1 rounded-full ${
-                isHomePage
+              className={`font-IBMMedium text-body-xl px-6 py-1 rounded-full
+                focus-visible:outline-dotted 
+                focus-visible:outline-2   
+              ${
+                isOnHomePage
                   ? "text-white bg-primary hover:bg-[#001FCC] hover:text-gray-100"
                   : "text-gray-700 hover:bg-gray-100"
               }`}
@@ -66,19 +71,24 @@ export default function MobileBanner() {
             </Link>
             <Link
               href="/about"
-              className={`font-IBMMedium text-body-xl px-6 py-1 rounded-full ${
-                isAboutPage
+              className={`font-IBMMedium text-body-xl px-6 py-1 rounded-full 
+                focus-visible:outline-dotted 
+                focus-visible:outline-2
+                ${
+                isOnAboutPage
                   ? "text-white bg-primary hover:bg-[#001FCC] hover:text-gray-100"
                   : "text-gray-700 hover:bg-gray-100"
               }`}
             >
-              About
+              About Me
             </Link>
             <a
               href="https://drive.google.com/file/d/1tejVYfIfNaG9MtQx6fwCBLotd5OgTMXw/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-IBMMedium text-body-xl px-6 py-1 rounded-full text-gray-700 hover:bg-gray-100"
+              className="font-IBMMedium text-body-xl px-6 py-1 rounded-full text-gray-700 hover:bg-gray-100
+                focus-visible:outline-dotted 
+                focus-visible:outline-2"
             >
               Resume
             </a>
