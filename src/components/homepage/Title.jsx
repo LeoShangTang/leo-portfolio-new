@@ -106,7 +106,7 @@ export default function Title() {
           </div>
           <div className="font-IBMMedium text-body-md md:text-body-xl">
             <span className="font-IBMBold">Full-stack</span>{" "}
-            <span className="font-IBMBold">developer</span> and 3rd-year
+            <span className="font-IBMBold">developer</span> and 4th-year
             computer science student
           </div>
           <div className="flex flex-row items-center font-IBMBold text-small-md md:text-small-xl  mt-5 gap-2">
