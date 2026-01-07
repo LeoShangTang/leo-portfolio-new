@@ -27,6 +27,7 @@ module.exports = {
         customGray: "#353434",
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#002AFF"
       },
     },
   },
