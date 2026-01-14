@@ -83,7 +83,7 @@ export default function MobileBanner() {
               About Me
             </Link>
             <a
-              href="https://drive.google.com/file/d/1wP6ILnNkMcc2qqXfGUKcfbBPH_6PKh16/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Z8hR7aSlYPSzk5jfkf7XzDAnRq_rlYZA/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="font-IBMMedium text-body-xl px-6 py-1 rounded-full text-gray-700 hover:bg-gray-100
